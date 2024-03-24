@@ -1,0 +1,26 @@
+.btn {
+  border: none;
+  border-radius: 30px;
+
+  cursor: pointer;
+}
+
+.btn:disabled{
+  opacity: .6;
+}
+
+.btn.primary{
+  color: #fff;
+  background: -webkit-linear-gradient(180deg, var(--primary-color), var(--secondary-color));
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px 40px;
+}
+
+.btn.secondary{
+  background: white;
+  color: var(--primary-text);
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+}
